@@ -99,6 +99,4 @@ ndk-debug:
 	make ndk-install
 
 ndk-install: 
-	cp -rf libs/armeabi/libgnubg* /home/dmt/Progetti/Android/workspace/it.alcacoop.backgammon/android/libs/armeabi/  
-	cp -rf libs/armeabi-v7a/libgnubg* /home/dmt/Progetti/Android/workspace/it.alcacoop.backgammon/android/libs/armeabi-v7a/  
-	cp -rf libs/x86/libgnubg* /home/dmt/Progetti/Android/workspace/it.alcacoop.backgammon/android/libs/x86/
+	cp -rf libs/armeabi-v7a ../it.alcacoop.backgammon/android/libs/

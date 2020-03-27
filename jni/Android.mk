@@ -10,3 +10,4 @@ include $(CLEAR_VARS)
 include $(GLIB_TOP)/glib/Android.mk
 include $(GLIB_TOP)/gthread/Android.mk
 include $(GLIB_TOP)/libgnubg/Android.mk
+APP_ALLOW_MISSING_DEPS=true
